@@ -41,6 +41,7 @@ header {
   height: 75px;
   line-height: 75px;
   position: fixed;
+  background: #FFFFFF;
   .header-logo {
     float: left;
   }
@@ -146,7 +147,8 @@ header {
     margin-bottom: 100px;
     .news{
       height: 43px;
-      border: solid silver 1px;
+      border-top: solid silver 1px;
+      border-bottom: solid silver 1px;
       .date{
         margin-left: 30px;
         line-height: 43px;

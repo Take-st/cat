@@ -28,7 +28,8 @@ header, .top-wrapper, .description1-wrapper, .description2-wrapper,
 header {
   height: 75px;
   line-height: 75px;
-  position: fixed; }
+  position: fixed;
+  background: #FFFFFF; }
   header .header-logo {
     float: left; }
   header .header-list {
@@ -116,7 +117,8 @@ header {
     margin-bottom: 100px; }
     .cat3-wrapper .news-compilation .news {
       height: 43px;
-      border: solid silver 1px; }
+      border-top: solid silver 1px;
+      border-bottom: solid silver 1px; }
       .cat3-wrapper .news-compilation .news .date {
         margin-left: 30px;
         line-height: 43px;

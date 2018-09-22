@@ -6,20 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="stylesheet.css">
-
+  <script src="//code.jquery.com/jquery-1.12.1.min.js"></script>
   <title>cat</title>
 </head>
 <body>
   <header>
     <div class="container">
       <div class="header-logo">
-        <img src="cat_pics/cat-logo.png" alt="cat" width="49px" height="24px">
+        <a href="#">
+          <img src="cat_pics/cat-logo.png" alt="cat" width="49px" height="24px">
+        </a>
       </div>
       <div class="header-list">
         <ul>
-          <li>cat1</li>
-          <li>cat2</li>
-          <li>cat3</li>
+          <li><a href="#cat1">cat1</a></li>
+          <li><a href="#cat2">cat2</a></li>
+          <li><a href="#cat3">cat3</a></li>
         </ul>
       </div>
       <div class="clear"></div>
@@ -37,7 +39,7 @@
       <p>然し其當時は何といふ考もなかつたから別段恐しいとも思はなかつた。<br>但彼の掌に載せられてスーと持ち上げられた時<br>何だかフハフハした感じが有つた許りである。</p>
     </div>
   </div>
-  <div class="cat1-wrapper">
+  <div class="cat1-wrapper" id="cat1">
     <div class=" container">
       <h2>CAT1</h2>
       <div class="cat1-box">
@@ -69,7 +71,7 @@
       </div>
     </div>
   </div>
-  <div class="cat2-wrapper">
+  <div class="cat2-wrapper" id="cat2">
     <div class="container">
       <h2>CAT2</h2>
       <div class="cat2-box1">
@@ -98,7 +100,7 @@
       </div>
     </div>
   </div>
-  <div class="cat3-wrapper">
+  <div class="cat3-wrapper" id="cat3">
     <div class="container">
       <h2>CAT3</h2>
       <div class="news-compilation">
