@@ -27,7 +27,8 @@ header, .top-wrapper, .description1-wrapper, .description2-wrapper,
 
 header {
   height: 75px;
-  line-height: 75px; }
+  line-height: 75px;
+  position: fixed; }
   header .header-logo {
     float: left; }
   header .header-list {
