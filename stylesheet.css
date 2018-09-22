@@ -6,7 +6,8 @@ body {
   color: #333333; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #333333; }
 
 ul {
   list-style: none; }
@@ -26,6 +27,7 @@ header, .top-wrapper, .description1-wrapper, .description2-wrapper,
   width: 1480px; }
 
 header {
+  width: 100%;
   height: 75px;
   line-height: 75px;
   position: fixed;

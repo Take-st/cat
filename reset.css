@@ -11,7 +11,3 @@ footer, header {
     vertical-align: baseline;
     background: transparent;
 }
-
-a, a:link, a:visited, a:hover, a:active {
-    text-decoration: none;
-}
